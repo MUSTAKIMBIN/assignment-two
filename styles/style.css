@@ -1,8 +1,77 @@
-@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;600;700;800&display=swap');
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Mulish', sans-serif;
-}
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;600;700;800&display=swap");
 /* --common style-- */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Mulish", sans-serif;
+}
+header,
+main {
+  width: 81%;
+  margin: 0 auto;
+}
+.btn-primary{
+    color: white;
+    background-color: #FF5400;
+    font-size: 0.7rem;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+
+}
+/* --header style-- */
+
+/* -- banner section-- */
+.banner {
+  margin-top: 6.5rem;
+  background-image: linear-gradient(
+      to bottom,
+      rgba(27, 27, 27, 0.856),
+      rgba(255, 255, 255, 0)
+    ),
+    url("../Images/Group\ 13\ \(1\)\ \(1\).png");
+  height: 55vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 0.6rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.banner .banner-content {
+  text-align: center;
+}
+.banner .banner-content h2 {
+  color: white;
+  font-size: 2.5rem;
+  font-weight: 800;
+  padding-bottom: 1.5rem;
+}
+.banner .banner-content p {
+  color: rgba(255, 255, 255, 0.753);
+  font-size: 0.8rem;
+  font-weight: 300;
+  line-height: 26px;
+  max-width: 70%;
+  margin: 0 auto;
+  padding-bottom: 2.3rem;
+}
+.banner-input{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 1rem;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.37);
+    max-width: 85%;
+    height: 100%;
+    margin: 0 auto;
+    border-radius: 5px;
+    padding: 1rem;
+}
+.banner-input input, select{
+    border: 0;
+    border-radius: 5px;
+    padding: 0.5rem 1rem;
+    color: rgba(19, 19, 24, 0.50);
+}
