@@ -102,3 +102,58 @@ select {
 .popular-tour-img img {
   width: 100%;
 }
+/* --Destination sectoion-- */
+.destination-content{
+    text-align: center;
+}
+.destination-content p{
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 0.9rem;
+    margin: 1.8rem 0;
+}
+.destination-imgs img{
+    width: 100%;
+}
+.img{
+    position: relative;
+    
+}
+.img .img-name{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.img .img-name p{
+    color: white;
+    font-size: 1.3rem;
+}
+#img1{
+    grid-area: img1;
+}
+#img2{
+    grid-area: img2;
+}
+#img3{
+    grid-area: img3;
+}
+#img4{
+    grid-area: img4;
+}
+#img5{
+    grid-area: img5;
+}
+#img6{
+    grid-area: img6;
+}
+#img7{
+    grid-area: img7;
+}
+.destination-imgs{
+    display: grid;
+    gap: 1rem;
+    grid-template-areas: 
+    "img1 img1 img1 img1 img1 img1 img2 img2 img2 img2 img2 img2"
+    "img3 img3 img3 img3 img4 img4 img4 img4 img4 img5 img5 img5"
+    "img6 img6 img6 img6 img6 img7 img7 img7 img7 img7 img7 img7 ";
+}

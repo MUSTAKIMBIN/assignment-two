@@ -7,6 +7,18 @@
     .popular-tour-content{
         width: 100%;
     }
+    .destination-imgs{
+        grid-template-areas: "img1"
+        "img2"
+        "img3"
+        "img4"
+        "img5"
+        "img6"
+        "img7";
+    }
+    .destination-imgs img{
+        height: 100%;
+    }
 }
 
 
@@ -22,5 +34,17 @@
     }
     .popular-tour-content{
         width: 100%;
+    }
+    .destination-imgs{
+        grid-template-areas: "img1"
+        "img2"
+        "img3"
+        "img4"
+        "img5"
+        "img6"
+        "img7";
+    }
+    .destination-imgs img{
+        height: 100%;
     }
 }
