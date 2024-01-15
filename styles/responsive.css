@@ -1,7 +1,11 @@
 /* --for mobile-- */
 @media screen and (max-width: 600px) {
-    .banner-input{
+    .banner-input,
+    .popular-tours{
         flex-direction: column;
+    }
+    .popular-tour-content{
+        width: 100%;
     }
 }
 
@@ -12,7 +16,11 @@
 
 /* --for tablet-- */
 @media screen and (min-width: 601px) and (max-width: 920px) {
-    .banner-input{
+    .banner-input,
+    .popular-tours{
         flex-direction: column;
+    }
+    .popular-tour-content{
+        width: 100%;
     }
 }
