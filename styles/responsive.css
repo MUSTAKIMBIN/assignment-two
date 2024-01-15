@@ -19,6 +19,9 @@
     .destination-imgs img{
         height: 100%;
     }
+    .footer i{
+        padding: 1rem;
+      }
 }
 
 
