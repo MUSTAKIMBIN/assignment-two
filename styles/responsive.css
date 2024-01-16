@@ -2,7 +2,8 @@
 @media screen and (max-width: 600px) {
     .banner-input,
     .popular-tours,
-    .newsletter{
+    .newsletter,
+    .choose-us-content{
         flex-direction: column;
     }
     .popular-tour-content{
@@ -28,10 +29,12 @@
         padding: 0.8rem 1rem;
         font-size: small;
       }
-    .footer i{
+     .content1,.content2,.content3{
+        width: 100%;
+     }
+     .footer i{
         padding: 1rem;
       }
-     
 }
 
 
@@ -43,7 +46,8 @@
 @media screen and (min-width: 601px) and (max-width: 920px) {
     .banner-input,
     .popular-tours,
-    .newsletter{
+    .newsletter,
+    .choose-us-content{
         flex-direction: column;
     }
     .popular-tour-content{
@@ -67,6 +71,12 @@
       .img-content{
         bottom: 20%;
       }
+      .choose-us-content{
+        flex-direction: column;
+      }
+      .content1,.content2,.content3{
+        width: 100%;
+     }
     .footer i{
         padding: 1rem;
       }
