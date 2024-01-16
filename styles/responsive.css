@@ -1,5 +1,14 @@
 /* --for mobile-- */
 @media screen and (max-width: 600px) {
+    .nav ul{
+        display: none;
+    }
+    label{
+        display: block;
+    }
+    .banner-content h2{
+        font-size: 1rem;
+    }
     .banner-input,
     .popular-tours,
     .newsletter,
@@ -44,6 +53,15 @@
 
 /* --for tablet-- */
 @media screen and (min-width: 601px) and (max-width: 920px) {
+    .nav ul{
+        display: none;
+    }
+    label{
+        display: block;
+    }
+    .banner-content h2{
+        font-size: 1rem;
+    }
     .banner-input,
     .popular-tours,
     .newsletter,
