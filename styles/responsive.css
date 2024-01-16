@@ -1,7 +1,8 @@
 /* --for mobile-- */
 @media screen and (max-width: 600px) {
     .banner-input,
-    .popular-tours{
+    .popular-tours,
+    .newsletter{
         flex-direction: column;
     }
     .popular-tour-content{
@@ -19,9 +20,18 @@
     .destination-imgs img{
         height: 100%;
     }
+    .newsletter-input{
+        width: 100%;
+      }
+      .img-content{
+        bottom: 20%;
+        padding: 0.8rem 1rem;
+        font-size: small;
+      }
     .footer i{
         padding: 1rem;
       }
+     
 }
 
 
@@ -32,7 +42,8 @@
 /* --for tablet-- */
 @media screen and (min-width: 601px) and (max-width: 920px) {
     .banner-input,
-    .popular-tours{
+    .popular-tours,
+    .newsletter{
         flex-direction: column;
     }
     .popular-tour-content{
@@ -50,4 +61,13 @@
     .destination-imgs img{
         height: 100%;
     }
+    .newsletter-input{
+        width: 100%;
+      }
+      .img-content{
+        bottom: 20%;
+      }
+    .footer i{
+        padding: 1rem;
+      }
 }
