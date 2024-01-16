@@ -202,6 +202,75 @@ select {
     "img6 img6 img6 img6 img6 img7 img7 img7 img7 img7 img7 img7 ";
 }
 /* --offer section-- */
+.offer-section{
+  margin: 6rem 0;
+}
+.offer-section> h2{
+  color: #ff5400;
+  font-size: 3.5rem;
+  font-weight: 800;
+  text-align: center;
+}
+.offer-section h2 span{
+  color: rgba(247, 7, 7, 0.932);
+  font-size: 4rem;
+}
+.offer-section> p{
+  color: #5a5a5d;
+  font-size: 0.9rem;
+  text-align: center;
+  padding: 1.5rem 0;
+  margin-top: 1rem;
+}
+.offer-container{
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+.single-offer{
+  background-color: rgba(174, 78, 219, 0.404);
+  border: 1px solid rgba(174, 78, 219, 0.411);
+  border-radius: 8px;
+  padding: 1.5rem;
+  margin-bottom: 1.2rem;
+}
+.single-offer h2{
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+.single-offer p{
+  color: #5a5a5d;
+  font-size: 0.9rem;
+  line-height: 1.1rem;
+  font-weight: 600;
+  margin: 1rem 0;
+}
+.family-offer{
+  background-color: rgba(219, 78, 184, 0.404);
+  border: 1px solid rgba(219, 78, 219, 0.411);
+  border-radius: 8px;
+  padding: 1.5rem;
+  margin-bottom: 1.2rem;
+}
+.family-offer h2{
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+.family-offer p{
+  color: #5a5a5d;
+  font-size: 0.9rem;
+  line-height: 1.1rem;
+  font-weight: 600;
+  margin: 1rem 0;
+}
+.offer-img{
+  width: 100%;
+}
+.offer-img img{
+  width: 100%;
+}
+
 
 /* --Why choose us-- */
 .choose-us {

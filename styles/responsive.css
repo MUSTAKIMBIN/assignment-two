@@ -6,14 +6,18 @@
     label{
         display: block;
     }
-    .banner-content h2{
+    .banner-content >h2{
         font-size: 1rem;
     }
     .banner-input,
     .popular-tours,
     .newsletter,
+    .offer-container,
     .choose-us-content{
         flex-direction: column;
+    }
+    .offer-container{
+        flex-direction: column-reverse;
     }
     .popular-tour-content{
         width: 100%;
@@ -59,7 +63,7 @@
     label{
         display: block;
     }
-    .banner-content h2{
+    .banner-content >h2{
         font-size: 1rem;
     }
     .banner-input,
@@ -67,6 +71,9 @@
     .newsletter,
     .choose-us-content{
         flex-direction: column;
+    }
+    .offer-container{
+        flex-direction: column-reverse;
     }
     .popular-tour-content{
         width: 100%;
